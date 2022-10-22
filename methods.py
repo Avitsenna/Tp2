@@ -1,4 +1,4 @@
-f = [int(i) for i in (open('10.txt').readlines())[0].split(' ')[:-1]]
+f = [int(i) for i in (open('1.txt').readlines())[0].split(' ')[:-1]]
 def _min(f):
     minn = 100000
     for i in f:
