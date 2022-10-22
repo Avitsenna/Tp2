@@ -1,10 +1,10 @@
 import random
 import unittest
-from Name_function import _min
-from Name_function import _max
-from Name_function import _sum
-from Name_function import _mult
-from Name_function import _pop
+from methods import _min
+from methods import _max
+from methods import _sum
+from methods import _mult
+from methods import _pop
 
 class Testclass(unittest.TestCase):
     def test_min(self):
