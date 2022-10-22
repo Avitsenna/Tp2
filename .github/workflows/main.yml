@@ -1,0 +1,19 @@
+name: CI
+
+on:
+  push:
+    branches: [master, develop]
+  pull_request:
+    branches: [master, develop]
+  workflow_dispatch: 
+  
+jobs:
+  actions:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install depencies
+        run: |
+          cd $GITHUB_WORKSPACE
+      - name: Run Tests
+        run: python -m unittest tests.py
