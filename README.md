@@ -17,8 +17,6 @@ Status of Tests:<br>
 
 Ссылка на канал с ботом.[тут](https://t.me/tz2tp)
 
-Один из возможных графиков:
+График:
 
-
-
-<img width="633" alt="Снимок экрана 2022-10-11 в 18 19 57" src="https://user-images.githubusercontent.com/114774497/195132379-157005ba-2d24-4d78-8974-868af1b34818.png">
+<img width="623" alt="Снимок экрана 2022-10-22 в 21 42 00" src="https://user-images.githubusercontent.com/79111185/197357500-08908c18-b2ed-4e4f-b8a4-f2ceec611a31.png">
