@@ -17,16 +17,3 @@ jobs:
           cd $GITHUB_WORKSPACE
       - name: Run Tests
         run: python -m unittest tests.py
-        
-        
-  sending_message:
-        runs-on: ubuntu-latest
-        
-        steps:
-          - name: "Telegram Notification, when test is successed"
-            uses: "appleboy/telegram-action@master"
-            if: ${{ success() }}
-            with:
-              to: ${{ secrets.TP2_CHATID }}
-              token: ${{ secrets.TP2_TOKEN }}
-              args: Все ок
