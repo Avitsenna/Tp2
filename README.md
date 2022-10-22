@@ -15,7 +15,6 @@ Status of Tests:<br>
 
 Ссылка на [tests](https://github.com/Avitsenna/Tp2/blob/develop/tests.py)
 
-Ссылка на канал с ботом.[тут](https://t.me/tz2tp)
 
 График:
 
