@@ -16,7 +16,7 @@ jobs:
         run: |
           cd $GITHUB_WORKSPACE
       - name: Run Tests
-        run: python -m unittest unitetsts.py
+        run: python -m unittest tests.py
         
         
   sending_message:
